@@ -24,7 +24,7 @@
 #include <math.h>
 
 //#define DEBUG
-#define ADC_CHANNEL 0
+#define ADC_CHANNEL 0 /* ADC0 = PC0 = A0*/
 #define N_BANDS 8
 #define N_FRAMES 5
 #define N_PEAKS 25
@@ -51,19 +51,42 @@
 #define LED_BRIGHTNESS 25
 #define UNUSED 255
 
-#define PATTERN_BUTTON_PIN 2
-#define COLOR_BUTTON_PIN 3
-#define LED_PIN 5
-#define LED_STRIP_PIN 6
+#define PATTERN_BUTTON_PIN 2 /* D2 = PD2 / INT0 */
+#define COLOR_BUTTON_PIN 3 /* D3 = PD3 / INT1 */
+#define LED_PIN 13 /* D13 = PB5, was D5 = PD5 */
+#define LED_STRIP_PIN 6 /* D6 = PD6 */
 #define PARM_POT 1
 
-uint8_t N_LEDS = 120;
+boolean EEPROMValid();
+void setEEPROMValid();
+void saveConfig();
+void configure();
+void setConfig();
+void setMode();
+void setColorMode();
+void setParameters();
+void reset();
+void test();
+uint32_t adjustBrightness(uint32_t c, float amt);
+uint32_t getColor(uint8_t index, uint8_t rnd);
+uint8_t getMagnitude(uint8_t band, uint8_t peakValue);
+uint8_t getRandomBaseColor(uint8_t r);
+uint8_t chooseRandomPattern();
+
+void doVisualization();
+void setADCFreeRunning();
+void setCutoffFreqBand();
+void analyzeAudioSamples();
+void setADCDefault();
+uint8_t determineWaitTime();
+
+uint8_t N_LEDS = 8 /* 120 */;
 uint8_t MAX_AGE = 0;
 
 #ifndef DEBUG
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(180, LED_STRIP_PIN, NEO_GRB + NEO_KHZ800);
 #else
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(120, LED_STRIP_PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(N_LEDS, LED_STRIP_PIN, NEO_GRB + NEO_KHZ800);
 #endif
 
 peak_t peaks[N_PEAKS];
@@ -128,6 +151,30 @@ const uint8_t PROGMEM band6weights[] = {1, 4, 11, 25, 49, 83, 121, 156, 180, 185
 const uint8_t PROGMEM band7weights[] = {1, 2, 5, 10, 18, 30, 46, 67, 92, 118, 143, 164, 179, 185, 184, 174, 158, 139, 118, 97, 77, 60, 45, 34, 25, 18, 13, 9, 7, 5, 3, 2, 2, 1, 1, 1, 1};
 const uint8_t PROGMEM * const bandWeights[] = {band0weights, band1weights, band2weights, band3weights, band4weights, band5weights, band6weights, band7weights};
 
+uint32_t Wheel(byte WheelPos) {
+  WheelPos = 255 - WheelPos;
+  if(WheelPos < 85) {
+    return strip.Color(255 - WheelPos * 3, 0, WheelPos * 3,0);
+  }
+  if(WheelPos < 170) {
+    WheelPos -= 85;
+    return strip.Color(0, WheelPos * 3, 255 - WheelPos * 3,0);
+  }
+  WheelPos -= 170;
+  return strip.Color(WheelPos * 3, 255 - WheelPos * 3, 0,0);
+}
+
+void rainbow(uint8_t wait) {
+  uint16_t i, j;
+
+  for(j=0; j<256; j++) {
+    for(i=0; i<strip.numPixels(); i++) {
+      strip.setPixelColor(i, Wheel((i+j) & 255));
+    }
+    strip.show();
+    delay(wait);
+  }
+}
 
 void setup() {
   randomSeed(analogRead(2));
@@ -159,7 +206,6 @@ void setup() {
 
   lastParm = 0;
   parm = analogRead(PARM_POT);
-
   setADCFreeRunning();
   DIDR0  = 1 << ADC_CHANNEL; // Turn off digital input for ADC pin
 
@@ -169,8 +215,10 @@ void setup() {
 
   for (i = 0; i < 3; i++) {
     digitalWrite(LED_PIN, HIGH);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(50);
     digitalWrite(LED_PIN, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(50);
   }
   analogWrite(LED_PIN, LED_BRIGHTNESS);
@@ -224,8 +272,9 @@ void setup() {
 
 #ifdef DEBUG
   Serial.begin(115200);
-  Serial.println(getMemory());
+  Serial.println(F("Lumazoid"));
 #endif
+  rainbow(100);
 }
 
 void loop() {
@@ -243,7 +292,7 @@ void loop() {
   // Get analog input from user
   setADCDefault(); // configure the ADC so that we can read pot parameters
   lastParm = parm;
-  parm = analogRead(PARM_POT);
+  //parm = analogRead(PARM_POT);
   if (parm != lastParm) {
     // only change parameters if we read a different value than last time.
     setParameters();
@@ -436,7 +485,6 @@ void analyzeAudioSamples() {
 void doVisualization() {
   float ageScale, b;
   uint32_t color;
-  uint8_t r;
 
   // Bright peaks emanating from center moving outward.
   if ((pattern == PATTERN_DANCE_PARTY) ||
@@ -630,6 +678,9 @@ void doVisualization() {
     uint8_t oldest;
     uint8_t nbars;
     switch (N_LEDS) {
+      case 8:
+        nbars = 2;
+        break;
       case 60:
       case 120:
         nbars = 15;
@@ -736,7 +787,8 @@ void doVisualization() {
   }
 
   if ((pattern == PATTERN_FLASHBULBS) || (pattern == PATTERN_FIREFLIES)) {
-    uint8_t pos, width;
+    uint8_t pos;
+
     for (i = 0; i < N_PEAKS; i++) {
       if (peaks[i].magnitude > 0) {
         if (peaks[i].age == 0) {
@@ -1242,7 +1294,7 @@ void configure() {
 }
 
 void setMode() {
-  byte tmp = mode;
+
   mode++;
   if (mode >= N_MODES) {
     mode = 0;

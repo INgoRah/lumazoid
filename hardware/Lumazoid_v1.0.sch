@@ -1,0 +1,1180 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11693 8587
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2600 4500 2700 4500
+Text Label 2600 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 5300 8800 5300
+Wire Wire Line
+	8700 5200 8800 5200
+Wire Wire Line
+	8800 5200 8800 5300
+Wire Wire Line
+	8700 5900 9000 5900
+Wire Wire Line
+	9000 5900 9000 5300
+Wire Wire Line
+	9000 5300 8800 5300
+Connection ~ 8800 5300
+Text Label 8700 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 5200 3800 5100
+Wire Wire Line
+	3800 5100 4000 5100
+Wire Wire Line
+	3800 5100 3800 5000
+Wire Wire Line
+	3800 5000 4000 5000
+Wire Wire Line
+	4000 4900 3800 4900
+Wire Wire Line
+	3800 4900 3800 5000
+Connection ~ 3800 5100
+Connection ~ 3800 5000
+Text Label 3800 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	2800 5400 2800 5500
+Wire Wire Line
+	2800 5500 3000 5500
+Wire Wire Line
+	3000 5500 3100 5500
+Wire Wire Line
+	3100 5500 3100 5400
+Wire Wire Line
+	3000 5500 3000 5600
+Connection ~ 3000 5500
+Text Label 2800 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 5400 7500 5400
+Wire Wire Line
+	7500 5400 7500 5500
+Text Label 7200 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	9200 4200 9400 4200
+Wire Wire Line
+	9400 4200 9400 4500
+Wire Wire Line
+	9400 4500 9900 4500
+Wire Wire Line
+	9900 4500 9900 3700
+Wire Wire Line
+	9900 3700 9700 3700
+Connection ~ 9400 4200
+Text Label 9200 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	7800 2800 7800 3000
+Text Label 7800 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	6800 3900 6800 3500
+Text Label 6800 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 1000 7500 1100
+Text Label 7500 1000 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 1200 8800 1200
+Text Label 8600 1200 0    10   ~ 0
+GND
+Wire Wire Line
+	9700 1200 9900 1200
+Text Label 9700 1200 0    10   ~ 0
+GND
+Wire Wire Line
+	1300 4200 1400 4200
+Text Label 1300 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	2400 4400 2400 4500
+Text Label 2400 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	9700 5300 9800 5300
+Wire Wire Line
+	9700 5200 9800 5200
+Wire Wire Line
+	9800 5200 9800 5300
+Wire Wire Line
+	9700 5900 10000 5900
+Wire Wire Line
+	10000 5900 10000 5300
+Wire Wire Line
+	10000 5300 9800 5300
+Connection ~ 9800 5300
+Text Label 9700 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	7900 3700 8200 3700
+Text Label 7900 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	4000 4100 2600 4100
+Wire Wire Line
+	2600 4100 2600 4200
+Wire Wire Line
+	2600 4200 2400 4200
+Connection ~ 2600 4200
+Wire Wire Line
+	4000 3900 1200 3900
+Wire Wire Line
+	1200 3900 1200 4500
+Wire Wire Line
+	1200 4500 1400 4500
+Wire Wire Line
+	1400 4500 1400 4400
+Connection ~ 1400 4500
+Wire Wire Line
+	6200 2000 6200 3900
+Wire Wire Line
+	4600 2000 6200 2000
+Wire Wire Line
+	6200 3900 5900 3900
+Wire Wire Line
+	4600 2100 6100 2100
+Wire Wire Line
+	6100 2100 6100 3800
+Wire Wire Line
+	6100 3800 5900 3800
+Wire Wire Line
+	2900 1500 3200 1500
+Wire Wire Line
+	3200 1500 3500 1500
+Wire Wire Line
+	3500 1500 3500 1200
+Wire Wire Line
+	3200 2500 3200 2200
+Wire Wire Line
+	3200 2200 3200 1500
+Wire Wire Line
+	3700 2500 3200 2500
+Wire Wire Line
+	3300 2200 3200 2200
+Connection ~ 3200 1500
+Connection ~ 3200 2200
+Text Label 2900 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	3400 3100 3400 3200
+Wire Wire Line
+	4000 3300 4000 3200
+Wire Wire Line
+	4000 3200 4000 3100
+Wire Wire Line
+	3400 3200 4000 3200
+Connection ~ 4000 3200
+Text Label 3400 3100 0    10   ~ 0
+VCC
+Wire Wire Line
+	7200 5200 7500 5200
+Wire Wire Line
+	7500 5200 7500 5000
+Text Label 7200 5200 0    10   ~ 0
+VCC
+Wire Wire Line
+	9300 3500 9300 4000
+Wire Wire Line
+	9300 4000 9400 4000
+Wire Wire Line
+	9400 3700 9400 4000
+Connection ~ 9400 4000
+Text Label 9300 3500 0    10   ~ 0
+VCC
+Wire Wire Line
+	7400 3500 7400 3200
+Text Label 7400 3500 0    10   ~ 0
+VCC
+Wire Wire Line
+	6300 800  6300 1000
+Wire Wire Line
+	6300 1000 6500 1000
+Text Label 6300 800  0    10   ~ 0
+VCC
+Wire Wire Line
+	2800 5100 2800 5000
+Wire Wire Line
+	3100 5000 3100 5100
+Wire Wire Line
+	2800 5000 3000 5000
+Wire Wire Line
+	3000 5000 3100 5000
+Wire Wire Line
+	3000 4900 3000 5000
+Connection ~ 3000 5000
+Text Label 2800 5100 0    10   ~ 0
+VCC
+Wire Wire Line
+	6500 2300 6500 2100
+Text Label 6500 2300 0    10   ~ 0
+VCC
+Wire Wire Line
+	2100 2000 2100 2200
+Text Label 2100 2000 0    10   ~ 0
+VCC
+Wire Wire Line
+	3900 1800 4200 1800
+Wire Wire Line
+	4200 1800 4200 1900
+Wire Wire Line
+	4200 1900 4600 1900
+Wire Wire Line
+	3700 2900 3900 2900
+Wire Wire Line
+	3900 2100 3900 2900
+Wire Wire Line
+	3900 2900 4000 2900
+Wire Wire Line
+	6900 5400 6500 5400
+Wire Wire Line
+	6500 5400 6500 5500
+Wire Wire Line
+	6500 5500 3600 5500
+Wire Wire Line
+	3600 5500 3600 2900
+Wire Wire Line
+	3600 2900 3700 2900
+Connection ~ 3900 2900
+Connection ~ 3700 2900
+Wire Wire Line
+	8500 4100 8300 4100
+Wire Wire Line
+	8300 4100 8300 4400
+Wire Wire Line
+	8300 4400 5900 4400
+Wire Wire Line
+	8900 4100 9400 4100
+Wire Wire Line
+	8500 1200 8500 1600
+Wire Wire Line
+	8500 1600 8700 1600
+Wire Wire Line
+	8700 1600 8700 1800
+Wire Wire Line
+	8700 1800 9600 1800
+Wire Wire Line
+	9600 1800 9600 1200
+Connection ~ 8500 1600
+Wire Wire Line
+	8300 1200 8300 1500
+Wire Wire Line
+	8300 1500 8300 1600
+Wire Wire Line
+	8300 1500 8800 1500
+Wire Wire Line
+	8800 1500 8800 1700
+Wire Wire Line
+	8800 1700 9400 1700
+Wire Wire Line
+	9400 1700 9400 1200
+Connection ~ 8300 1500
+Wire Wire Line
+	6900 5200 6400 5200
+Wire Wire Line
+	6400 5200 6400 5100
+Wire Wire Line
+	6400 5100 5900 5100
+Wire Wire Line
+	5900 5200 6300 5200
+Wire Wire Line
+	6300 5200 6300 5300
+Wire Wire Line
+	6300 5300 6900 5300
+Wire Wire Line
+	7200 5300 7700 5300
+Wire Wire Line
+	7700 5300 7700 4800
+Wire Wire Line
+	7700 4800 6400 4800
+Wire Wire Line
+	6400 4800 6400 5000
+Wire Wire Line
+	6400 5000 5900 5000
+Wire Wire Line
+	3700 2200 4600 2200
+Wire Wire Line
+	8500 2000 8500 2100
+Wire Wire Line
+	8500 2100 8300 2100
+Wire Wire Line
+	8300 2100 8300 2000
+Wire Wire Line
+	8300 2100 8300 2400
+Connection ~ 8300 2100
+Wire Wire Line
+	8000 2400 7800 2400
+Wire Wire Line
+	5900 2900 7100 2900
+Wire Wire Line
+	7100 2900 7100 2400
+Wire Wire Line
+	7100 2400 7300 2400
+Wire Wire Line
+	7300 2400 7800 2400
+Connection ~ 7800 2400
+Connection ~ 7300 2400
+Wire Wire Line
+	6800 1200 6800 2000
+Wire Wire Line
+	6800 2000 7800 2000
+Text Label 6800 2000 0    70   ~ 0
+AREF
+Wire Wire Line
+	3100 3500 3000 3500
+Text Label 3000 3500 0    70   ~ 0
+AREF
+Wire Wire Line
+	3500 3500 4000 3500
+Wire Wire Line
+	7100 3700 7100 3800
+Wire Wire Line
+	7100 3800 6500 3800
+Wire Wire Line
+	6500 3800 6500 3000
+Wire Wire Line
+	6500 3000 5900 3000
+Wire Wire Line
+	5900 4000 6300 4000
+Wire Wire Line
+	6300 4000 6300 4700
+Wire Wire Line
+	6300 4700 8300 4700
+Wire Wire Line
+	8300 4700 8300 5200
+Wire Wire Line
+	8300 5200 8300 5300
+Wire Wire Line
+	8700 5800 8700 5600
+Wire Wire Line
+	8700 5600 8300 5600
+Wire Wire Line
+	8300 5600 8300 5300
+Connection ~ 8300 5200
+Connection ~ 8300 5300
+Wire Wire Line
+	5900 3100 6300 3100
+Wire Wire Line
+	6300 3100 6300 2500
+Wire Wire Line
+	6300 2500 6500 2500
+Wire Wire Line
+	6500 2400 6400 2400
+Wire Wire Line
+	6400 2400 6400 3200
+Wire Wire Line
+	6400 3200 5900 3200
+Wire Wire Line
+	9300 5200 9300 5300
+Wire Wire Line
+	9700 5800 9700 5600
+Wire Wire Line
+	9700 5600 9300 5600
+Wire Wire Line
+	9300 5600 9300 5300
+Wire Wire Line
+	5900 4100 6400 4100
+Wire Wire Line
+	6400 4100 6400 4600
+Wire Wire Line
+	6400 4600 9300 4600
+Wire Wire Line
+	9300 4600 9300 5200
+Connection ~ 9300 5300
+Connection ~ 9300 5200
+Wire Wire Line
+	5900 4300 7300 4300
+Wire Wire Line
+	7300 4300 7300 4100
+Wire Wire Line
+	7700 4100 7900 4100
+Wire Wire Line
+	7900 4100 7900 4000
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+01
+U 1 1 78DC59CA
+P 3500 1100
+F 0 "#P+01" H 3500 1100 50  0001 C CNN
+F 1 "5V" V 3400 1000 59  0000 L BNN
+F 2 "" H 3500 1100 50  0001 C CNN
+F 3 "" H 3500 1100 50  0001 C CNN
+	1    3500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND04
+U 1 1 12C122FD
+P 2700 4600
+F 0 "#GND04" H 2700 4600 50  0001 C CNN
+F 1 "GND" H 2600 4500 59  0000 L BNN
+F 2 "" H 2700 4600 50  0001 C CNN
+F 3 "" H 2700 4600 50  0001 C CNN
+	1    2700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND05
+U 1 1 5B6A58CA
+P 1400 4900
+F 0 "#GND05" H 1400 4900 50  0001 C CNN
+F 1 "GND" H 1300 4800 59  0000 L BNN
+F 2 "" H 1400 4900 50  0001 C CNN
+F 3 "" H 1400 4900 50  0001 C CNN
+	1    1400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND06
+U 1 1 F6847280
+P 3800 5300
+F 0 "#GND06" H 3800 5300 50  0001 C CNN
+F 1 "GND" H 3700 5200 59  0000 L BNN
+F 2 "" H 3800 5300 50  0001 C CNN
+F 3 "" H 3800 5300 50  0001 C CNN
+	1    3800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND07
+U 1 1 C2693486
+P 2900 1800
+F 0 "#GND07" H 2900 1800 50  0001 C CNN
+F 1 "GND" H 2800 1700 59  0000 L BNN
+F 2 "" H 2900 1800 50  0001 C CNN
+F 3 "" H 2900 1800 50  0001 C CNN
+	1    2900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C4
+U 1 1 D14D4BF0
+P 1400 4600
+F 0 "C4" H 1460 4615 59  0000 L BNN
+F 1 "22pF" H 1460 4415 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 1400 4600 50  0001 C CNN
+F 3 "" H 1400 4600 50  0001 C CNN
+	1    1400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C5
+U 1 1 F94BC516
+P 2600 4300
+F 0 "C5" H 2660 4315 59  0000 L BNN
+F 1 "22pF" H 2660 4115 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 2600 4300 50  0001 C CNN
+F 3 "" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C2
+U 1 1 1B34BBCF
+P 3100 5200
+F 0 "C2" H 3160 5215 59  0000 L BNN
+F 1 ".1uF" H 3160 5015 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 3100 5200 50  0001 C CNN
+F 3 "" H 3100 5200 50  0001 C CNN
+	1    3100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R1
+U 1 1 DE04AF3C
+P 3700 2700
+F 0 "R1" H 3550 2759 59  0000 L BNN
+F 1 "10K" H 3550 2570 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M06 JP1
+U 1 1 C9DAC73D
+P 4800 2100
+F 0 "JP1" H 4600 2530 59  0000 L BNN
+F 1 "SERIAL" H 4600 1700 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X06" H 4800 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND08
+U 1 1 E3161DBF
+P 4600 2500
+F 0 "#GND08" H 4600 2500 50  0001 C CNN
+F 1 "GND" H 4500 2400 59  0000 L BNN
+F 2 "" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C3
+U 1 1 5B8E32D7
+P 3900 1900
+F 0 "C3" H 3960 1915 59  0000 L BNN
+F 1 ".1uF" H 3960 1715 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 3900 1900 50  0001 C CNN
+F 3 "" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:LOGO U$1
+U 1 1 89E33A62
+P 5800 7400
+F 0 "U$1" H 5800 7400 50  0001 C CNN
+F 1 "LOGO" H 5800 7400 50  0001 C CNN
+F 2 "Lumazoid_v1.0:LOGO_SMALL" H 5800 7400 50  0001 C CNN
+F 3 "" H 5800 7400 50  0001 C CNN
+	1    5800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND015
+U 1 1 7499CEA7
+P 8800 5400
+F 0 "#GND015" H 8800 5400 50  0001 C CNN
+F 1 "GND" H 8700 5300 59  0000 L BNN
+F 2 "" H 8800 5400 50  0001 C CNN
+F 3 "" H 8800 5400 50  0001 C CNN
+	1    8800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:LETTER_L #FRAME1
+U 1 1 CC96BE83
+P 1000 7700
+F 0 "#FRAME1" H 1000 7700 50  0001 C CNN
+F 1 "LETTER_L" H 1000 7700 50  0001 C CNN
+F 2 "" H 1000 7700 50  0001 C CNN
+F 3 "" H 1000 7700 50  0001 C CNN
+	1    1000 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:LETTER_L #FRAME1
+U 2 1 CC96BE8F
+P 6800 7700
+F 0 "#FRAME1" H 6800 7700 50  0001 C CNN
+F 1 "LETTER_L" H 6800 7700 50  0001 C CNN
+F 2 "" H 6800 7700 50  0001 C CNN
+F 3 "" H 6800 7700 50  0001 C CNN
+	2    6800 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:ATMEGA328_SMT U1
+U 1 1 C72E0E7E
+P 4900 3900
+F 0 "U1" H 4200 2400 59  0000 L BNN
+F 1 "ATMEGA328P" H 4200 5020 59  0000 L BNN
+F 2 "Lumazoid_v1.0:TQFP32-08" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C1
+U 1 1 7FB0097F
+P 2800 5200
+F 0 "C1" H 2860 5215 59  0000 L BNN
+F 1 ".1uF" H 2860 5015 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 2800 5200 50  0001 C CNN
+F 3 "" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+02
+U 1 1 71AF78CE
+P 3400 3000
+F 0 "#P+02" H 3400 3000 50  0001 C CNN
+F 1 "5V" V 3300 2900 59  0000 L BNN
+F 2 "" H 3400 3000 50  0001 C CNN
+F 3 "" H 3400 3000 50  0001 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND01
+U 1 1 8DA2BB24
+P 3000 5700
+F 0 "#GND01" H 3000 5700 50  0001 C CNN
+F 1 "GND" H 2900 5600 59  0000 L BNN
+F 2 "" H 3000 5700 50  0001 C CNN
+F 3 "" H 3000 5700 50  0001 C CNN
+	1    3000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+03
+U 1 1 5A16877F
+P 3000 4800
+F 0 "#P+03" H 3000 4800 50  0001 C CNN
+F 1 "5V" V 2900 4700 59  0000 L BNN
+F 2 "" H 3000 4800 50  0001 C CNN
+F 3 "" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:PINHD-2X3 JP2
+U 1 1 BAFA783C
+P 7000 5300
+F 0 "JP2" H 6750 5525 59  0000 L BNN
+F 1 "PINHD-2X3" H 6750 5000 59  0000 L BNN
+F 2 "Lumazoid_v1.0:2X03" H 7000 5300 50  0001 C CNN
+F 3 "" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R6
+U 1 1 CB5AD9AF
+P 8700 4100
+F 0 "R6" H 8550 4159 59  0000 L BNN
+F 1 "470" H 8550 3970 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 8700 4100 50  0001 C CNN
+F 3 "" H 8700 4100 50  0001 C CNN
+	1    8700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R4
+U 1 1 738A1E18
+P 8500 1800
+F 0 "R4" H 8350 1859 59  0000 L BNN
+F 1 "4.7K" H 8350 1670 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 8500 1800 50  0001 C CNN
+F 3 "" H 8500 1800 50  0001 C CNN
+	1    8500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R5
+U 1 1 03F1CCD5
+P 8300 1800
+F 0 "R5" H 8150 1859 59  0000 L BNN
+F 1 "4.7K" H 8150 1670 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 8300 1800 50  0001 C CNN
+F 3 "" H 8300 1800 50  0001 C CNN
+	1    8300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:AUDIOJACK INPUT1
+U 1 1 675172F6
+P 8400 1000
+F 0 "INPUT1" H 8200 1220 59  0000 L BNN
+F 1 "AUDIOJACK" H 8200 700 59  0000 L BNN
+F 2 "Lumazoid_v1.0:AUDIOJACK" H 8400 1000 50  0001 C CNN
+F 3 "" H 8400 1000 50  0001 C CNN
+	1    8400 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND02
+U 1 1 4877C9E2
+P 8800 1300
+F 0 "#GND02" H 8800 1300 50  0001 C CNN
+F 1 "GND" H 8700 1200 59  0000 L BNN
+F 2 "" H 8800 1300 50  0001 C CNN
+F 3 "" H 8800 1300 50  0001 C CNN
+	1    8800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND03
+U 1 1 21137572
+P 7500 5600
+F 0 "#GND03" H 7500 5600 50  0001 C CNN
+F 1 "GND" H 7400 5500 59  0000 L BNN
+F 2 "" H 7500 5600 50  0001 C CNN
+F 3 "" H 7500 5600 50  0001 C CNN
+	1    7500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+04
+U 1 1 574B8F30
+P 7500 4900
+F 0 "#P+04" H 7500 4900 50  0001 C CNN
+F 1 "5V" V 7400 4800 59  0000 L BNN
+F 2 "" H 7500 4900 50  0001 C CNN
+F 3 "" H 7500 4900 50  0001 C CNN
+	1    7500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M03 U$3
+U 1 1 6E1B97F5
+P 9700 4100
+F 0 "U$3" H 9600 4330 59  0000 L BNN
+F 1 "M03" H 9600 3800 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X03" H 9700 4100 50  0001 C CNN
+F 3 "" H 9700 4100 50  0001 C CNN
+	1    9700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+05
+U 1 1 45209EAD
+P 9300 3400
+F 0 "#P+05" H 9300 3400 50  0001 C CNN
+F 1 "5V" V 9200 3300 59  0000 L BNN
+F 2 "" H 9300 3400 50  0001 C CNN
+F 3 "" H 9300 3400 50  0001 C CNN
+	1    9300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND09
+U 1 1 FD0A31A1
+P 9200 4300
+F 0 "#GND09" H 9200 4300 50  0001 C CNN
+F 1 "GND" H 9100 4200 59  0000 L BNN
+F 2 "" H 9200 4300 50  0001 C CNN
+F 3 "" H 9200 4300 50  0001 C CNN
+	1    9200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CPOL-USE5-10.5 C6
+U 1 1 6969BB2C
+P 9500 3700
+F 0 "C6" H 9540 3725 59  0000 L BNN
+F 1 "1000uF" H 9540 3535 59  0000 L BNN
+F 2 "Lumazoid_v1.0:E5-10,5" H 9500 3700 50  0001 C CNN
+F 3 "" H 9500 3700 50  0001 C CNN
+	1    9500 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:SJ SJ1
+U 1 1 666E743F
+P 3500 2200
+F 0 "SJ1" H 3400 2300 59  0000 L BNN
+F 1 "SJ" H 3400 2050 59  0000 L BNN
+F 2 "Lumazoid_v1.0:SJ" H 3500 2200 50  0001 C CNN
+F 3 "" H 3500 2200 50  0001 C CNN
+	1    3500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:SWITCH-TACT6MMSMT-J S1
+U 1 1 2DFAE552
+P 8500 5200
+F 0 "S1" H 8350 5400 59  0000 L BNN
+F 1 "SWITCH-TACT6MMSMT-J" H 8500 5200 50  0001 C CNN
+F 2 "Lumazoid_v1.0:DTSM-6-JBEND" H 8500 5200 50  0001 C CNN
+F 3 "" H 8500 5200 50  0001 C CNN
+	1    8500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC1206 C7
+U 1 1 8AD01514
+P 8100 2400
+F 0 "C7" H 8160 2415 59  0000 L BNN
+F 1 "10uF" H 8160 2215 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C1206" H 8100 2400 50  0001 C CNN
+F 3 "" H 8100 2400 50  0001 C CNN
+	1    8100 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R2
+U 1 1 7B6FF4A5
+P 7800 2200
+F 0 "R2" H 7650 2259 59  0000 L BNN
+F 1 "100K" H 7650 2070 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 7800 2200 50  0001 C CNN
+F 3 "" H 7800 2200 50  0001 C CNN
+	1    7800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R3
+U 1 1 5E3BF956
+P 7800 2600
+F 0 "R3" H 7650 2659 59  0000 L BNN
+F 1 "100K" H 7650 2470 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 7800 2600 50  0001 C CNN
+F 3 "" H 7800 2600 50  0001 C CNN
+	1    7800 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND010
+U 1 1 0087CD10
+P 7800 3100
+F 0 "#GND010" H 7800 3100 50  0001 C CNN
+F 1 "GND" H 7700 3000 59  0000 L BNN
+F 2 "" H 7800 3100 50  0001 C CNN
+F 3 "" H 7800 3100 50  0001 C CNN
+	1    7800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:POT2POT2 SENSITIVITY1
+U 1 1 61879DCD
+P 6800 1000
+F 0 "SENSITIVITY1" V 7000 600 59  0000 L BNN
+F 1 "POT2POT2" V 6700 600 59  0000 L BNN
+F 2 "Lumazoid_v1.0:ALPS_POT" H 6800 1000 50  0001 C CNN
+F 3 "" H 6800 1000 50  0001 C CNN
+	1    6800 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND011
+U 1 1 5518330F
+P 7500 1200
+F 0 "#GND011" H 7500 1200 50  0001 C CNN
+F 1 "GND" H 7400 1100 59  0000 L BNN
+F 2 "" H 7500 1200 50  0001 C CNN
+F 3 "" H 7500 1200 50  0001 C CNN
+	1    7500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND012
+U 1 1 8C4C494A
+P 9900 1300
+F 0 "#GND012" H 9900 1300 50  0001 C CNN
+F 1 "GND" H 9800 1200 59  0000 L BNN
+F 2 "" H 9900 1300 50  0001 C CNN
+F 3 "" H 9900 1300 50  0001 C CNN
+	1    9900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND013
+U 1 1 85B66688
+P 7300 2800
+F 0 "#GND013" H 7300 2800 50  0001 C CNN
+F 1 "GND" H 7200 2700 59  0000 L BNN
+F 2 "" H 7300 2800 50  0001 C CNN
+F 3 "" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND014
+U 1 1 B9C9B342
+P 6800 4000
+F 0 "#GND014" H 6800 4000 50  0001 C CNN
+F 1 "GND" H 6700 3900 59  0000 L BNN
+F 2 "" H 6800 4000 50  0001 C CNN
+F 3 "" H 6800 4000 50  0001 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+06
+U 1 1 59B8B26C
+P 6300 700
+F 0 "#P+06" H 6300 700 50  0001 C CNN
+F 1 "5V" V 6200 600 59  0000 L BNN
+F 2 "" H 6300 700 50  0001 C CNN
+F 3 "" H 6300 700 50  0001 C CNN
+	1    6300 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+07
+U 1 1 E82A6219
+P 7400 3100
+F 0 "#P+07" H 7400 3100 50  0001 C CNN
+F 1 "5V" V 7300 3000 59  0000 L BNN
+F 2 "" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R7
+U 1 1 2F6F52F1
+P 3300 3500
+F 0 "R7" H 3150 3559 59  0000 L BNN
+F 1 "4.7K" H 3150 3370 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 3300 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:POT2POT2 PARAM1
+U 1 1 ADF96703
+P 7100 3500
+F 0 "PARAM1" V 7300 3100 59  0000 L BNN
+F 1 "POT2POT2" V 7000 3100 59  0000 L BNN
+F 2 "Lumazoid_v1.0:ALPS_POT" H 7100 3500 50  0001 C CNN
+F 3 "" H 7100 3500 50  0001 C CNN
+	1    7100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:CAPC0603 C8
+U 1 1 0B7C5011
+P 7300 2500
+F 0 "C8" H 7360 2515 59  0000 L BNN
+F 1 "47nF" H 7360 2315 59  0000 L BNN
+F 2 "Lumazoid_v1.0:C0603" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:AUDIOJACK OUTPUT1
+U 1 1 36D0CEDD
+P 9500 1000
+F 0 "OUTPUT1" H 9300 1220 59  0000 L BNN
+F 1 "AUDIOJACK" H 9300 700 59  0000 L BNN
+F 2 "Lumazoid_v1.0:AUDIOJACK" H 9500 1000 50  0001 C CNN
+F 3 "" H 9500 1000 50  0001 C CNN
+	1    9500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:FIDUCIAL FID2
+U 1 1 AD69ACBC
+P 4600 6300
+F 0 "FID2" H 4600 6300 50  0001 C CNN
+F 1 "FIDUCIAL" H 4600 6300 50  0001 C CNN
+F 2 "Lumazoid_v1.0:FIDUCIAL_1MM" H 4600 6300 50  0001 C CNN
+F 3 "" H 4600 6300 50  0001 C CNN
+	1    4600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:FIDUCIAL FID1
+U 1 1 57AF2ED6
+P 4200 6300
+F 0 "FID1" H 4200 6300 50  0001 C CNN
+F 1 "FIDUCIAL" H 4200 6300 50  0001 C CNN
+F 2 "Lumazoid_v1.0:FIDUCIAL_1MM" H 4200 6300 50  0001 C CNN
+F 3 "" H 4200 6300 50  0001 C CNN
+	1    4200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:FIDUCIAL FID3
+U 1 1 C6D146FB
+P 4600 6600
+F 0 "FID3" H 4600 6600 50  0001 C CNN
+F 1 "FIDUCIAL" H 4600 6600 50  0001 C CNN
+F 2 "Lumazoid_v1.0:FIDUCIAL_1MM" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+	1    4600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R8
+U 1 1 05530CBA
+P 7300 1000
+F 0 "R8" H 7150 1059 59  0000 L BNN
+F 1 "1.8K" H 7150 870 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 7300 1000 50  0001 C CNN
+F 3 "" H 7300 1000 50  0001 C CNN
+	1    7300 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:POWER_JACKSM J1
+U 1 1 A453F9AA
+P 2800 1800
+F 0 "J1" H 2400 1800 59  0000 L BNN
+F 1 "POWER_JACKSM" H 2400 2200 59  0000 L BNN
+F 2 "Lumazoid_v1.0:POWER_JACK_SM" H 2800 1800 50  0001 C CNN
+F 3 "" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M02 JP3
+U 1 1 8182258E
+P 8400 5800
+F 0 "JP3" H 8300 5930 59  0000 L BNN
+F 1 "M02" H 8300 5500 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X02" H 8400 5800 50  0001 C CNN
+F 3 "" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M04 JP4
+U 1 1 193933AB
+P 6700 2500
+F 0 "JP4" H 6500 2830 59  0000 L BNN
+F 1 "M04" H 6500 2200 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X04" H 6700 2500 50  0001 C CNN
+F 3 "" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND016
+U 1 1 12C6E2A1
+P 6500 2700
+F 0 "#GND016" H 6500 2700 50  0001 C CNN
+F 1 "GND" H 6400 2600 59  0000 L BNN
+F 2 "" H 6500 2700 50  0001 C CNN
+F 3 "" H 6500 2700 50  0001 C CNN
+	1    6500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+08
+U 1 1 F1F9860C
+P 6500 2000
+F 0 "#P+08" H 6500 2000 50  0001 C CNN
+F 1 "5V" V 6400 1900 59  0000 L BNN
+F 2 "" H 6500 2000 50  0001 C CNN
+F 3 "" H 6500 2000 50  0001 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:OSCILLATOR5X3 Q1
+U 1 1 22BC07EB
+P 1900 4300
+F 0 "Q1" H 1600 4530 42  0000 L BNN
+F 1 "OSCILLATOR5X3" H 1600 4010 42  0000 L BNN
+F 2 "Lumazoid_v1.0:CRYSTAL-SMD-5X3" H 1900 4300 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND017
+U 1 1 CBB20165
+P 2400 4600
+F 0 "#GND017" H 2400 4600 50  0001 C CNN
+F 1 "GND" H 2300 4500 59  0000 L BNN
+F 2 "" H 2400 4600 50  0001 C CNN
+F 3 "" H 2400 4600 50  0001 C CNN
+	1    2400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND018
+U 1 1 195191A6
+P 1300 4300
+F 0 "#GND018" H 1300 4300 50  0001 C CNN
+F 1 "GND" H 1200 4200 59  0000 L BNN
+F 2 "" H 1300 4300 50  0001 C CNN
+F 3 "" H 1300 4300 50  0001 C CNN
+	1    1300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND019
+U 1 1 F278BC0E
+P 9800 5400
+F 0 "#GND019" H 9800 5400 50  0001 C CNN
+F 1 "GND" H 9700 5300 59  0000 L BNN
+F 2 "" H 9800 5400 50  0001 C CNN
+F 3 "" H 9800 5400 50  0001 C CNN
+	1    9800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:SWITCH-TACT6MMSMT-J S2
+U 1 1 ACC3EC98
+P 9500 5200
+F 0 "S2" H 9350 5400 59  0000 L BNN
+F 1 "SWITCH-TACT6MMSMT-J" H 9500 5200 50  0001 C CNN
+F 2 "Lumazoid_v1.0:DTSM-6-JBEND" H 9500 5200 50  0001 C CNN
+F 3 "" H 9500 5200 50  0001 C CNN
+	1    9500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M02 JP5
+U 1 1 056852D9
+P 9400 5800
+F 0 "JP5" H 9300 5930 59  0000 L BNN
+F 1 "M02" H 9300 5500 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X02" H 9400 5800 50  0001 C CNN
+F 3 "" H 9400 5800 50  0001 C CNN
+	1    9400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:R-USR0603 R9
+U 1 1 F9E2373F
+P 7500 4100
+F 0 "R9" H 7350 4159 59  0000 L BNN
+F 1 "470" H 7350 3970 59  0000 L BNN
+F 2 "Lumazoid_v1.0:R0603" H 7500 4100 50  0001 C CNN
+F 3 "" H 7500 4100 50  0001 C CNN
+	1    7500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:LEDCHIPLED_0805 LED1
+U 1 1 7DC8C285
+P 7900 3900
+F 0 "LED1" V 8040 3720 59  0000 L BNN
+F 1 "LEDCHIPLED_0805" V 8125 3720 59  0000 L BNN
+F 2 "Lumazoid_v1.0:CHIPLED_0805" H 7900 3900 50  0001 C CNN
+F 3 "" H 7900 3900 50  0001 C CNN
+	1    7900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:GND #GND020
+U 1 1 E53A484A
+P 8200 3800
+F 0 "#GND020" H 8200 3800 50  0001 C CNN
+F 1 "GND" H 8100 3700 59  0000 L BNN
+F 2 "" H 8200 3800 50  0001 C CNN
+F 3 "" H 8200 3800 50  0001 C CNN
+	1    8200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:M01 JP6
+U 1 1 A21E5090
+P 1800 2200
+F 0 "JP6" H 1700 2330 59  0000 L BNN
+F 1 "M01" H 1700 2000 59  0000 L BNN
+F 2 "Lumazoid_v1.0:1X01" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lumazoid_v1.0-eagle-import:VCC #P+09
+U 1 1 CF5B4810
+P 2100 1900
+F 0 "#P+09" H 2100 1900 50  0001 C CNN
+F 1 "5V" V 2000 1800 59  0000 L BNN
+F 2 "" H 2100 1900 50  0001 C CNN
+F 3 "" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
